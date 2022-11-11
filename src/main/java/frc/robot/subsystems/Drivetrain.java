@@ -8,8 +8,8 @@ public class Drivetrain extends SubsystemBase {
     MotorController left;
     MotorController right;
     public Drivetrain() {
-        left = new Victor(1);
-        right = new Victor(2);
+        left = new Victor(7);
+        right = new Victor(9);
     }
     public void drive (double leftSpeed, double rightSpeed) {
         left.set(leftSpeed);
